@@ -12,7 +12,7 @@ class Cafe:
               order = self.orders_queue.popleft()
               print(f"Готове замовлення: {order}")
         else: 
-            print("Не має замовлень")
+            print("!")
 
     def is_empty(self):
         if len(self.orders_queue) == 0:
